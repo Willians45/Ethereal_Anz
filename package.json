@@ -1,0 +1,18 @@
+{
+    "name": "ethereal-anz",
+    "version": "1.0.0",
+    "description": "Catálogo de carteras Ethereal Anz - Hello Kitty themed",
+    "main": "index.html",
+    "scripts": {
+        "dev": "npx serve .",
+        "build": "echo 'Static site - no build needed'"
+    },
+    "keywords": [
+        "catalog",
+        "handbags",
+        "hello-kitty",
+        "landing-page"
+    ],
+    "author": "Ethereal Anz",
+    "license": "MIT"
+}
