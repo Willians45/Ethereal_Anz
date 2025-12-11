@@ -20,7 +20,21 @@ const products = [
     { id: 18, price: 17 },
     { id: 19, price: 18.5 },
     { id: 20, price: 17 },
-    { id: 21, price: 19 }
+    { id: 21, price: 19 },
+    { id: 22, price: 19 },
+    { id: 23, price: 19 },
+    { id: 24, price: 19 },
+    { id: 25, price: 19 },
+    { id: 26, price: 21 },
+    { id: 27, price: 18 },
+    { id: 28, price: 21 },
+    { id: 29, price: 20 },
+    { id: 30, price: 19 },
+    { id: 31, price: 22 },
+    { id: 32, price: 20 },
+    { id: 33, price: 18 },
+    { id: 34, price: 18 },
+    { id: 35, price: 20 }
 ];
 // WhatsApp configuration
 const WHATSAPP_NUMBER = '584127568365';
