@@ -41,6 +41,36 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="container">
+            <!-- Filters and Controls -->
+            <div class="controls-container animate">
+                <!-- Category Toggle -->
+                <div class="category-toggle-container">
+                    <span class="category-label">Categoría:</span>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="categoryToggle" class="toggle-input">
+                        <label for="categoryToggle" class="toggle-bias">
+                            <span class="toggle-bg"></span>
+                            <span class="toggle-slider"></span>
+                            <span class="category-text text-wallet">Carteras</span>
+                            <span class="category-text text-keychain">Llaveros</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Price Filter -->
+                <div class="price-filter-container">
+                    <span class="filter-label">Ordenar por:</span>
+                    <div class="custom-dropdown" id="customDropdown">
+                        <div class="dropdown-selected" id="dropdownSelected">Por Defecto</div>
+                        <div class="dropdown-options" id="dropdownOptions">
+                            <div class="dropdown-option" data-value="default">Por Defecto</div>
+                            <div class="dropdown-option" data-value="asc">Precio: Menor a Mayor</div>
+                            <div class="dropdown-option" data-value="desc">Precio: Mayor a Menor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Product Grid -->
             <div class="product-grid" id="productGrid">
                 <!-- Products will be dynamically inserted here -->
